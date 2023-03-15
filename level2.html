@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEK pac <level 2>
+    </title>
+    <link rel="stylesheet" href="level2.css">
+</head>
+
+<body>
+    <header>
+        <div class="levelP">
+            <p style="
+                opacity: 100%;
+            ">Level 1</p>
+            <img src="images/level 1 arrow.png" alt="" class="levelImg">
+        </div>
+        <div>
+            <img src="images/mid arrow 1 to 2.png" alt="" class="borderImg">
+        </div>
+        <div class="levelP">
+            <p style="
+                opacity: 100%;
+                font-style: italic;
+                font-weight: 800;
+            ">Level 2</p>
+            <img src="images/level 2 arrow.png" alt="" class="levelImg">
+        </div>
+        <div>
+            <img src="images/mid arrow diabled.png" alt="" class="borderImg">
+        </div>
+        <div class="levelP">
+            <p>Level 3</p>
+            <img src="images/level disable.png" alt="" class="levelImg">
+        </div>
+        <div>
+            <img src="images/mid arrow diabled.png" alt="" class="borderImg">
+        </div>
+        <div class="levelP">
+            <p>Level 4</p>
+            <img src="images/level disable.png" alt="" class="levelImg">
+        </div>
+
+    </header>
+
+    <div class="bigHolder">
+
+        <div class="leftAside">
+            <p style="text-shadow: 0px 0px 7px rgb(223, 8, 8);">Share with your friend : </p>
+            <div class="link">
+                <a  name = "youtube">
+                    <img src="images/youtube.png" alt="">
+                </a>
+                <a  name = "whatsApp">
+                    <img src="images/whatsApp.png" alt="">
+                </a>
+                <a  name = "twitter">
+                    <img src="images/twitter.png" alt="">
+                </a>
+                <a name = "telegram">
+                    <img src="images/telegram.png" alt="">
+                </a>
+                <a  name = "instagram">
+                    <img src="images/instagram.png" alt="">
+                </a>
+                <a name = "gamil">
+                    <img src="images/gmail.png" alt="">
+                </a>
+                <a  name = "facebook">
+                    <img src="images/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="info">
+                <p>
+                    Name :
+                </p>
+                <p id="name">
+                    **
+                </p>
+                <p id="score" >score : _</p>
+                <p id = "timer" style="color: white;"></p>
+            </div>
+            <a href="">
+                Ultra web agency
+            </a>
+        </div>
+        <div class="main">
+            
+            <div class="gamePlat">
+                
+                <canvas id="gamePlat" width="750" height="600"></canvas>
+
+                <div id="stopPopUp" style="display: none;">
+                    <p>
+                        STOP
+                    </p>
+                </div>
+
+                <img id = "EaterLeft" src="images/kekw-left.png" alt="" style="position : absolute; display: none;">
+                <img id = "EaterRight" src="images/kekw-right.png" alt="" style="position : absolute; display: none;">
+                <img id = "EaterLeftOpen" src="images/kekw-left-open.png" alt="" style="position : absolute; display: none;">
+                <img id = "EaterRightOpen" src="images/kekw-right-open.png" alt="" style="position : absolute; display: none;">
+
+                <img id = "coffi1" src="images/coffi-1.png" alt="" style="position : absolute; display: none;">
+                <img id = "coffi1-left" src="images/coffi-1-left.png" alt="" style="position : absolute; display: none;">
+                
+                <img id = "coffi2-left" src="images/coffi-2-left.png" alt="" style="position : absolute; display: none;">
+                <img id = "coffi2-right" src="images/coffi-2-right.png" alt="" style="position : absolute; display: none;">
+
+                <img id = "coffi3-left" src="images/coffin3-left.png" alt="" style="position : absolute; display: none;">
+                <img id = "coffi3-right" src="images/coffin3-right.png" alt="" style="position : absolute; display: none;">
+
+                <img id = "coffi4-left" src="images/coffin4-left.png" alt="" style="position : absolute; display: none;">
+                <img id = "coffi4-right" src="images/coffin4-right.png" alt="" style="position : absolute; display: none;">
+
+                <audio src="voice/dot eating.mp3" id="dotEate"></audio>
+                <audio src="voice/soul eating.mp3" id="soulEate"></audio>
+                <audio src="voice/ghost hunt fase.mp3" id="soulScape"></audio>
+                <audio src="voice/death.mp3" id="death"></audio>
+                <audio src="voice/lose sound.mp3" id="ls"></audio>
+                <audio src="voice/win sound.mp3" id="ws"></audio>
+
+                <audio src="voice/pouse end.mp3" id="pend"></audio>
+                <audio src="voice/pouse start.mp3" id="pstart"></audio>
+
+            </div>
+            <div class="linkFooter">
+                <div class="heart">
+                    <img src="images/heart.png" alt="" id="heart1">
+                    <img src="images/heart.png" alt="" id="heart2">
+                    <img src="images/heart.png" alt="" id="heart3">
+                </div>
+            </div>
+        </div>
+        <div class="rightAside">
+            <div class="directBTN">
+                <table>
+                    <tr>
+                        <td><img src="" alt=""></td>
+                        <td><img src="images/up.png" alt="up" id="upd"></td>
+                        <td><img src="" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/left.png" alt="left" id="leftd"></td>
+                        <td><img src="images/stop.png" alt="STOP" id="stopB"></td>
+                        <td><img src="images/right.png" alt="right" id="rightd"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="" alt=""></td>
+                        <td><img src="images/down.png" alt="down" id="downd"></td>
+                        <td><img src="" alt=""></td>
+                    </tr>
+                </table>
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="win" style="display: none;" id="win">
+        <div class="holder">
+            <a href="popUp3.html">
+                Click to go next level
+            </a>
+            <p class="alart">
+                You Won !!!
+            </p>    
+        </div>
+    </div>
+
+    <div class="gameOver" style="display: none;" id="gameOver">
+        <div class="holder">
+            <a href="index.html">
+                Game Over!!!
+            </a>
+            <p id = "gameOverScore">
+                score is : _
+            </p>    
+        </div>
+    </div>
+
+    <div id="loseHeart">
+        <img src="images/heart.png" alt="">
+        <p>
+            you lost one of your hearts
+        </p>
+    </div>
+
+    <script src="level2.js"></script>
+
+</body>
+
+</html>

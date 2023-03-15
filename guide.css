@@ -1,0 +1,79 @@
+
+#guide{
+    background-image: linear-gradient(to bottom left ,#3F3F3F ,#000000,#013243 ,#004D52 ,#09676E);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 700px;
+    width: 99%;
+}
+
+#guide h2{
+    color: #FF00BC;
+    text-shadow: 0 0 5px #F5FF00, 0 0 16px #000000;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+
+    text-align: center;
+}
+
+#guide .link{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+#guide .link a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
+#guide .holder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 1050px;
+    height: 500px;
+    box-sizing: border-box;
+
+    background-color: #a1a1a18e;
+    border: solid 0px #a1a1a18e;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+#guide .holder p { 
+    height: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+    text-align: center;
+
+    color: white;
+}
+
+#guide .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 134px;
+    height: 118px;
+
+    opacity: 90%;
+}

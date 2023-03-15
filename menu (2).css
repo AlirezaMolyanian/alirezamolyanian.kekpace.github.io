@@ -1,0 +1,157 @@
+
+body{
+    background-image: linear-gradient(to bottom left ,#3F3F3F ,#000000,#013243 ,#004D52 ,#09676E);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 700px;
+    width: 99%;
+}
+
+.link{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+
+    gap: 3px;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
+.holder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 450px;
+    height: 430px;
+    box-sizing: border-box;
+
+    background-color: #a1a1a18e;
+    border: solid 2px rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+#warn{
+    color: red;
+
+    font-size: 12px;
+}
+
+.holder p { 
+    height: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.holder input{
+    width: 372px;
+    height: 50px;
+
+    background-color: #CFFFFA;
+    border: solid 1px #707070;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 134px;
+    height: 118px;
+
+    opacity: 90%;
+}
+
+.holder button{
+    position: absolute;
+    bottom: 40px;
+
+    width: 222px;
+    height: 64px;
+
+    background-color: #FF0000;
+    border: solid 1px #707070;
+    color: white;
+
+    text-align: center;
+    text-justify: inter-cluster;
+    text-decoration: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.holder img{
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.holder img:hover{
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: white;
+}
+
+#front{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.644);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 99%;
+    height: 700px;
+}
+
+.frontLogo{
+    opacity: 0.7;
+}
+
+.close{
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: rgba(255, 235, 205, 0.644);
+    transition-duration: 0.3s;
+}
+
+.close:hover{
+    background-color: rgba(56, 54, 52, 0.678);
+}
